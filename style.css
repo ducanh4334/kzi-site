@@ -57,14 +57,20 @@ nav a:hover {
 .highlight {
   background: linear-gradient(to right, #D4AF37, #E6C86B, #D4AF37);
   -webkit-background-clip: text;
+  background-clip: text;
   color: transparent;
 }
+
 .hero p {
   margin: 15px 0;
 }
 .hero-buttons a {
   margin-right: 10px;
 }
+
+/* call to action button */
+
+/* solutions (explore solutions) */
 .btn-gold {
   background: #D4AF37;
   color: #111;
@@ -72,19 +78,24 @@ nav a:hover {
   text-decoration: none;
   border-radius: 20px;
 }
+
+/* contact ( request site visit ) */
 .btn-outline {
-  border: 1px solid #ccc;
-  color: #fff;
-  padding: 9px 19px;
+  background: #D4AF37;
+  color: #111;
+  padding: 10px 20px;
   text-decoration: none;
   border-radius: 20px;
 }
+
+/* subtitle for hero buttons */
 .hero-tags {
   margin-top: 15px;
   font-size: 14px;
   display: flex;
   gap: 15px;
 }
+
 .hero-image img {
   max-width: 400px;
   border-radius: 12px;
@@ -104,22 +115,10 @@ section h2 {
 
 /* GRIDS */
 .cards-grid {
+ margin-top: 20px;
   display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 20px;
-}
-.cards-grid .card {
-  background-color: rgba(255,255,255,0.05);
-  padding: 20px;
-  border-radius: 12px;
-}
-.grid-list {
-  display: grid;
-  gap: 10px;
-}
-.grid-list span {
-  background-color: rgba(255,255,255,0.05);
-  padding: 10px;
-  border-radius: 8px;
 }
 
 /* PROCESS */
